@@ -1,4 +1,4 @@
-ul{
+p{
     list-style-type: none;
     overflow: hidden;
     background-color: #cc3300;
@@ -37,15 +37,9 @@ div img{
     margin-right: 2em;
     margin-top: -1em;
     position: relative;
-}
-h1 {
-    text-align: center;
-    font:Verdana;
+
 }
 
-
-hr {
-    margin-top: 7em;
 }
 
 p {
@@ -64,12 +58,4 @@ footer > p:first-child {
     font-family:Verdana;
 }
 
-aside {
-    margin-left: 1em;
-}
-.one {
-    background: none;
-    font-family: Verdana;
-    color: black;
-    font-size: 24px;
-}
+
