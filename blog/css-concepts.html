@@ -1,0 +1,41 @@
+<html>
+<head>
+	<title>CSS Concepts</title>
+</head>
+<body>
+
+<p>
+What are the best practices associated with using classes vs. ids?
+
+</p>
+
+<p>
+Many people ask, "Is the best practice to use CLASS or ID as the selector?"
+
+
+</p>
+
+<p>
+
+In general, the rule of thumb is that you should ask yourself: "is there more than one element which requires the same style, now or at any time in the future?", and the answer is even "maybe", then make it a class.
+
+</p>
+
+
+<p>
+
+Don't forget that class and ID are not mutually exclusive. There is nothing to stop you from having both! This is sometimes very useful as it allows an item to inherit common styling along with other elements of the same class as well as giving you precise control of that specific item. Another handy technique is to apply multiple classes to the same object (yes, class="someClass someOtherClass" is perfectly valid) 
+</P>
+
+<p>
+In theory it is also possible to get CSS to only apply to items that belong to several classes, e.g. div.box.narrow {something: somevalue;} but unfortunately this is not supported in all browsers. Update 2011: Multiple class selectors now have near universal browser support so go ahead and use them!
+</p>
+
+<p>
+Don't forget that you can link to an element that has an ID. This can be very important for accessibility, among the other benefits. This is a good reason why for layout elements like header, navigation, main content, footer, search form and so on, you should always use an ID instead of a Class (or together with a Class).
+</P>
+
+
+
+</body>
+</html>
