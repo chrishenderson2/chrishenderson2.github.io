@@ -11,26 +11,24 @@
 <body>
 
 
-<h1>Chris's WEBSITE</h1>
+<h1>Chris's BLOG</h1>
 
-<h2>About me</h2>
+<h2>About my blog</h2>
 
-<p>I am an avid fitness enthusiast. I believe cardio is essential to proper brain function. It is no surprise why tech companies offer free gym memberships and reimbursements, it really does help the body release stressful chenmicals such as cortisol</p>
+<p>My blog is currently under construction. I am adding things as I learn.</p>
 
 <h2>What I'm doing right now</h2>
 
 <p>Right now, I am very excited to be participating in the Dev Boot Camp here in San Francisco California! I will be keeping my readers up to date with the process</p>
 
 
-<h2>Links/h2>
+<h2>Blog Posts</h2>
 
 
  <div>
   <ul>
-  <li><a href="http://chrishenderson2.github.io/">Home</a></li>
-    <li><a href="./blog/blog.template.html">Blog</a></li>
-   <li><a href="https://github.com/chrishenderson2">GitHub </a></li>
-   <li><a href="https://www.linkedin.com/in/chrishendersoncs">LinkedIn </a></li>
+]  <li><a href="./blog/git.html">Version Control</a></li>
+  <li><a href="./blog/css-concepts.html">CSS-Concepts</a></li>
   </ul>
 </div>
 
