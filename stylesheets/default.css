@@ -1,55 +1,52 @@
-p{
-    list-style-type: none;
-    overflow: hidden;
-    background-color: #00FFFF;
-    -webkit-margin-before: 0em;
-    -webkit-margin-after: 5em;
-    -webkit-margin-start: 1px;
-    -webkit-margin-end: 5px;
-    -webkit-padding-start: 40px
+*{
+/*   border: 2px solid red; */
 }
 
-li {
-    float: left;
-    border-right:1px solid #bbb;
-    padding-right: 170px;
-    font-weight: bold;
-}
-li:last-child {
-    border-right: none;
-}
-
-li a {
-    display: block;
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    background-color: #FF00FF
+.nav-bar{
+  background-color: rgba(255,255,255,.85);
+  text-align: center;
+  padding: 30px;
+  border-bottom: grey 2px solid;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 75px;
+  line-height: 75px;
 }
 
-li a:hover
-    {
-    background-color: green;
+.nav-bar a {
+  margin: 0 60px;
+  float: left;
+
+}
+.nav-bar .avatar{
+  margin-right: 60px;
 }
 
-
-
-p {
-    font-size: 14px;
-    font-family: Verdana;
+.nav-bar .links a{
+  border: 3px solid grey;
+  padding: 0 30px;
+  border-radius: 10%;
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
 }
 
-footer > p:nth-child(2) {
-    font-size: 8px;
-    font-family:Verdana;
+.nav-bar .links a:hover{
+ color: white;
+ background-color: black;
 }
 
-footer > p:first-child {
-    text-align: center;
-    font-size: 15px;
-    font-family:Verdana;
+.nav-bar .avatar img{
+  height: 75px;
+  border-radius: 50%;
 }
-div {
-    background-color: #FF00FF
+
+.page-container{
+  margin-top: 170px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
